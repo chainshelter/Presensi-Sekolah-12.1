@@ -1,6 +1,7 @@
 Halo, ini project baru kita, membangun aplikasi presensi untuk sekolah kita.
 
 ### 12 Jan 2021 : Preapre & Normalisasi Database	
+Tugas 1 Membuat Article dari Awal sampai Membuat Database & Table dibawah ini, Dikirim ke email se.esemka@rbs.sch.id, dengan subject, Pakai email SMK, jangan yang lain.
 ```.sql
 tbl_tahunajaran	tipe
 kode_tahunajaran	varchar(60) PK
