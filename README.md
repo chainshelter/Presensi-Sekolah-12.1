@@ -53,3 +53,19 @@ nama_guru	TEXT
 jenis_kelamin	TEXT
 date_created	timestamp
 ```
+
+### 13 Jan 2021 : Mengisi data pada Table 
+* Table Jenjang
+Ketentuannya isi data jenjang, dari TK - SMK
+* Table Tahunajaran
+Ketentuan isi data tahun ajaran, format 2017/2018 - 2020/2021
+* Table Kelas
+Ketentuan isi data kelas, dari X - XII
+* Table Jurusan
+Ketentuan isi data jurusan, dari TKJ dan RPL
+* Table Datasiswa 
+Ketentuan isi data datasiswa, sisipkan nomor induk siswa, bebas dlu aja nanti di modify
+* Table Guru
+Ketentuan isi data data guru, sisipkan nomor induk pengajat, bebas dlu aja nanti di modify
+
+Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id dengan subject pertemuan 13 jan 2021
