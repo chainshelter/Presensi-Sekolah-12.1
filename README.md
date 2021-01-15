@@ -29,4 +29,6 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 * Melakukan Relasi table dengan Query dan menampilkannya kedalam Design di phpMyAdmin
 * Rekonstruksi table apabila terdapat redudansi
 
+<img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-15%2014-49-22.png"/>
+
 Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id dengan subject pertemuan 15 jan 2021
