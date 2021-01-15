@@ -202,3 +202,9 @@ FOREIGN KEY (id_siswa) REFERENCES tbl_datasiswa(id_siswa);
 <img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-15%2014-49-22.png"/>
 
 Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id dengan subject pertemuan 15 jan 2021
+
+### Rilis Update : Bisa di download di link berikut
+* <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
+
+### Documentation
+Belum tersedia
