@@ -4,7 +4,7 @@ Halo, ini project baru kita, membangun aplikasi presensi untuk sekolah kita.
 Tugas 1 Membuat Article dari Awal sampai Membuat Database & Table dibawah ini, Dikirim ke email se.esemka@rbs.sch.id, dengan subject, Pakai email SMK, jangan yang lain.
 ```.sql
 tbl_tahunajaran         tipe
-kode_tahunajaran	    varchar(60) PK
+kode_tahunajaran    varchar(60) PK
 tahunajaran	            TEXT
 date_created	        timestamp
 	
