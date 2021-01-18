@@ -212,5 +212,7 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
+* <a href="https://github.com/eljitech/campusystem/releases/tag/180121.2">Rekonstruksi Database Presensi</a> : Update Database Struktur dan Data. (<i>Unstable</i>)
+
 ### Documentation
 Belum tersedia
