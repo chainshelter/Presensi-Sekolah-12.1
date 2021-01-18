@@ -209,6 +209,8 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 * Membuat Table Presensi dan Detail absensi beserta Relasi
 * Membuat Detail tampilan data dari Absensi Siswa & mengimplementasikannya kedalam File API dengan method Post
 
+<img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-18%2012-18-32.png"/>
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
