@@ -226,7 +226,7 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 
 * <a href="https://github.com/eljitech/campusystem/releases/tag/180121.2">Rekonstruksi Database Presensi</a> : Update Database Struktur dan Data. (<i>Unstable</i>)
 
-* <a href="https://github.com/eljitech/campusystem/releases/tag/190121.2">Hasil Normalisasi Final Database</a> : Update Database Struktur dan Data. (<i>Stable Now, Download for Import to Your Local Database Server</i>)
+* <a href="https://github.com/eljitech/campusystem/releases/tag/190121.2">Hasil Normalisasi Final Database</a> : Update Database Struktur dan Data. (<b>Stable Now, Download for Import to Your Local Database Server</b>)
 
 ### Documentation
 Belum tersedia
