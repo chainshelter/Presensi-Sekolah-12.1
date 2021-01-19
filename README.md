@@ -247,6 +247,10 @@ JOIN tbl_absensi ON tbl_absensi.kode_absensi=tbl_detailabsensi.kode_absensi
 WHERE tbl_absensi.kode_absensi = '19012021-JP3'
 ```
 
+<img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-19%2012-01-36.png"/>
+
+<img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-19%2012-01-57.png"/>
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
