@@ -213,10 +213,20 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 
 * <a href="https://github.com/eljitech/campusystem/blob/master/database/18012021_db_presensi.sql">Download Database file .SQL</a>
 
+### 19 Jan 2021 : Update rekonstruksi / normalisasi Database Presensi
+* Update Database
+* Re-Query untuk Menampilkan list siswa berdasarkan rombel kelas dan tahun ajaran
+* Re-Query Proses Absensi
+* Dan Design sekaligus Analisa Flow map program absensi berbasis Android
+
+* Download Database new-Normalisasi <a href="https://github.com/eljitech/campusystem/blob/master/database/19012021_db_presensi_final.sql">Disini</a>
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
 * <a href="https://github.com/eljitech/campusystem/releases/tag/180121.2">Rekonstruksi Database Presensi</a> : Update Database Struktur dan Data. (<i>Unstable</i>)
+
+* <a href="https://github.com/eljitech/campusystem/releases/tag/190121.2">Hasil Normalisasi Final Database</a> : Update Database Struktur dan Data. (<i>Stable Now, Download for Import to Your Local Database Server</i>)
 
 ### Documentation
 Belum tersedia
