@@ -228,9 +228,9 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 Module Utama dalam program Presensi ini ada 2 yakni, List siswa dalam rombel kelas, dan Result dari Proses Absensi yang dilakukan
 ```.sql
 SELECT tbl_rombelkelas.kode_rombel, tbl_datasiswa.id_siswa, tbl_datasiswa.nama_siswa, 
-tbl_detailrombel.tipe_anggota, tbl_detailrombel.kode_jurusan, tbl_kelas.kode_kelas, tbl_kelas.kelas, 
-tbl_angkatan.angkatan, tbl_tahunajaran.tahunajaran, tbl_guru.nama_guru 'wali_kelas', 
-tbl_jenjang.jenjang
+tbl_detailrombel.tipe_anggota, tbl_detailrombel.kode_jurusan, tbl_kelas.kode_kelas, 
+tbl_kelas.kelas, tbl_angkatan.angkatan, tbl_tahunajaran.tahunajaran, 
+tbl_guru.nama_guru 'wali_kelas', tbl_jenjang.jenjang
 FROM tbl_detailrombel
 JOIN tbl_rombelkelas ON tbl_rombelkelas.kode_rombel=tbl_detailrombel.kode_rombel
 JOIN tbl_datasiswa ON tbl_datasiswa.id_siswa=tbl_detailrombel.id_siswa
