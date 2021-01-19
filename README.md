@@ -225,6 +225,25 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 
 <img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-19%2011-55-13.png"/>
 
+Module Utama dalam program Presensi ini ada 2 yakni, List siswa dalam rombel kelas, dan Result dari Proses Absensi yang dilakukan
+```.sql
+SELECT tbl_rombelkelas.kode_rombel, tbl_datasiswa.id_siswa, tbl_datasiswa.nama_siswa, tbl_detailrombel.tipe_anggota, tbl_detailrombel.kode_jurusan, tbl_kelas.kode_kelas, tbl_kelas.kelas, tbl_angkatan.angkatan, tbl_tahunajaran.tahunajaran, tbl_guru.nama_guru 'wali_kelas', tbl_jenjang.jenjang
+FROM tbl_detailrombel
+JOIN tbl_rombelkelas ON tbl_rombelkelas.kode_rombel=tbl_detailrombel.kode_rombel
+JOIN tbl_datasiswa ON tbl_datasiswa.id_siswa=tbl_detailrombel.id_siswa
+JOIN tbl_angkatan ON tbl_angkatan.kode_angkatan=tbl_rombelkelas.kode_angkatan
+JOIN tbl_tahunajaran ON tbl_tahunajaran.kode_tahunajaran=tbl_rombelkelas.kode_tahunajaran
+JOIN tbl_guru ON tbl_guru.id_guru=tbl_rombelkelas.id_guru
+JOIN tbl_jenjang ON tbl_jenjang.kode_jenjang=tbl_rombelkelas.kode_jenjang
+JOIN tbl_kelas ON tbl_kelas.kode_kelas=tbl_rombelkelas.kode_kelas
+WHERE tbl_rombelkelas.kode_rombel = '1920-A1'
+
+SELECT * 
+FROM tbl_detailabsensi
+JOIN tbl_absensi ON tbl_absensi.kode_absensi=tbl_detailabsensi.kode_absensi
+WHERE tbl_absensi.kode_absensi = '19012021-JP3'
+```
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
