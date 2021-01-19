@@ -221,6 +221,10 @@ Tolong ditulis kedalam article jika sudah kirim ke email se.esemka@rbs.sch.id de
 
 * Download Database new-Normalisasi <a href="https://github.com/eljitech/campusystem/blob/master/database/19012021_db_presensi_final.sql">Disini</a>
 
+<img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-19%2011-54-19.png"/>
+
+<img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-19%2011-55-13.png"/>
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
