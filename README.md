@@ -250,6 +250,11 @@ WHERE tbl_absensi.kode_absensi = '19012021-JP3'
 
 <img src="https://github.com/eljitech/campusystem/blob/master/picture/github/Screenshot%20from%202021-01-19%2012-01-57.png"/>
 
+### 20 Jan 2021 : Menambahkan Module / Fitur List Data siswa dalam Rombel Kelas
+* Menambahkan list siswa berdasarkan Rombel Kelas (Done) -> <a href="https://github.com/eljitech/campusystem/commit/d344d14cafc5d267df37dba966601b42811c9b5b">Cek disini</a>
+
+<img src="https://github.com/eljitech/campusystem/blob/0ece43b33837636c59f5d2d7a99b895b4f2c7c9e/picture/github/Screenshot%20from%202021-01-20%2011-44-22.png"/>
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
