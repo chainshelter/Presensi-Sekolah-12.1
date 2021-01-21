@@ -255,6 +255,9 @@ WHERE tbl_absensi.kode_absensi = '19012021-JP3'
 
 <img src="https://github.com/eljitech/campusystem/blob/0ece43b33837636c59f5d2d7a99b895b4f2c7c9e/picture/github/Screenshot%20from%202021-01-20%2011-44-22.png"/>
 
+### 21 Jan 2021 : Update module dari unmatched data dari request dan response tidak sesuai (Solved)
+* <a href="https://github.com/eljitech/campusystem/commit/9e0829ab2f607788de081fd12ad735ae72e24e37#diff-4fd587a5cc4f9093f60aacdd05bbca61f4e33e5f91b003d90736758fcc8beae7">Silahkan akses di link ini</a>
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
