@@ -4,7 +4,7 @@
     $SERVER = "localhost";
     $USERDB = "root";
     $KEYDB = "!!&21adi";
-    $DBNAME = "db_presensi";
+    $DBNAME = "db_attendance";
 
     $_AUTH = mysqli_connect($SERVER, $USERDB, $KEYDB, $DBNAME);
 
