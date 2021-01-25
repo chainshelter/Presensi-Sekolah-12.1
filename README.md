@@ -259,6 +259,11 @@ WHERE tbl_absensi.kode_absensi = '19012021-JP3'
 * <a href="https://github.com/eljitech/campusystem/commit/9e0829ab2f607788de081fd12ad735ae72e24e37#diff-4fd587a5cc4f9093f60aacdd05bbca61f4e33e5f91b003d90736758fcc8beae7">Silahkan akses di link ini</a>
 * Final Database bisa di downloda <a href="https://github.com/eljitech/campusystem/commit/b1744cdb3c63bf2f94e0ecf73f19510f21d93f78">disini</a>
 
+### 21 Jan 2021 : Update List Data dengan Filter Data TA dan Jurusan
+Seperti tampak pada gambar dibawah ini
+
+<img src="https://user-images.githubusercontent.com/59852881/105358022-34402b80-5c28-11eb-9722-3da391e8fdc1.gif"/>
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
