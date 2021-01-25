@@ -264,7 +264,7 @@ Seperti tampak pada gambar dibawah ini
 
 <img src="https://user-images.githubusercontent.com/59852881/105358022-34402b80-5c28-11eb-9722-3da391e8fdc1.gif"/>
 
-Untuk sourcecode berikut kami sematkan di bagian link berikut <a href="https://github.com/eljitech/attendance/blob/master/module/attendance/listrombel_kelas.php">Lihat disini</a>
+Untuk sourcecode berikut kami sematkan di bagian link berikut <a href="https://github.com/eljitech/attendance/commit/bc7139a71bd99e1e93f5bc63adfd693e1c2481b9">Lihat disini</a>
 
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
