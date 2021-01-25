@@ -272,6 +272,8 @@ Final change, menampilkan data dengan dan tanpa parameter jurusan, disini kita m
 
 <img src="https://github.com/eljitech/attendance/blob/master/picture/github/Peek%202021-01-25%2011-19.gif"/>
 
+Bisa lihat <a href="https://github.com/eljitech/attendance/commit/1c4dbb6585caabdb384fd97e5c50034024c9e4c7#commitcomment-46322253">disini</a> sourcecodenya 
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
