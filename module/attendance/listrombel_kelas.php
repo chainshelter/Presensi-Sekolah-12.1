@@ -7,13 +7,14 @@
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Request POST sudah terpenuhi
         $rombel = $_POST['kode_rombel'];
+        $jurusan = $_POST['kode_jurusan'];
 
         // Query List Data berdasarkan Rombel Kelas
-        $datasiswa_inrombel = mysqli_query($_AUTH, "SELECT tbl_rombelkelas.kode_rombel, tbl_guru.nama_guru 'wali_kelas', tbl_jenjang.jenjang, tbl_datasiswa.id_siswa, tbl_datasiswa.nis, tbl_datasiswa.nama_siswa, tbl_detailrombel.tipe_anggota, tbl_detailrombel.kode_jurusan, tbl_kelas.kode_kelas, tbl_kelas.kelas, tbl_angkatan.angkatan, tbl_tahunajaran.tahunajaran FROM tbl_detailrombel JOIN tbl_rombelkelas ON tbl_rombelkelas.kode_rombel=tbl_detailrombel.kode_rombel JOIN tbl_datasiswa ON tbl_datasiswa.id_siswa=tbl_detailrombel.id_siswa JOIN tbl_angkatan ON tbl_angkatan.kode_angkatan=tbl_rombelkelas.kode_angkatan JOIN tbl_tahunajaran ON tbl_tahunajaran.kode_tahunajaran=tbl_rombelkelas.kode_tahunajaran JOIN tbl_guru ON tbl_guru.id_guru=tbl_rombelkelas.id_guru JOIN tbl_jenjang ON tbl_jenjang.kode_jenjang=tbl_rombelkelas.kode_jenjang JOIN tbl_kelas ON tbl_kelas.kode_kelas=tbl_rombelkelas.kode_kelas WHERE tbl_rombelkelas.kode_rombel = '$rombel'");
+        $datasiswa_inrombel = mysqli_query($_AUTH, "SELECT tbl_rombelkelas.kode_rombel, tbl_guru.nama_guru 'wali_kelas', tbl_jenjang.jenjang, tbl_datasiswa.id_siswa, tbl_datasiswa.nis, tbl_datasiswa.nama_siswa, tbl_detailrombel.tipe_anggota, tbl_detailrombel.kode_jurusan, tbl_kelas.kode_kelas, tbl_kelas.kelas, tbl_angkatan.angkatan, tbl_tahunajaran.tahunajaran FROM tbl_detailrombel JOIN tbl_rombelkelas ON tbl_rombelkelas.kode_rombel=tbl_detailrombel.kode_rombel JOIN tbl_datasiswa ON tbl_datasiswa.id_siswa=tbl_detailrombel.id_siswa JOIN tbl_angkatan ON tbl_angkatan.kode_angkatan=tbl_rombelkelas.kode_angkatan JOIN tbl_tahunajaran ON tbl_tahunajaran.kode_tahunajaran=tbl_rombelkelas.kode_tahunajaran JOIN tbl_guru ON tbl_guru.id_guru=tbl_rombelkelas.id_guru JOIN tbl_jenjang ON tbl_jenjang.kode_jenjang=tbl_rombelkelas.kode_jenjang JOIN tbl_kelas ON tbl_kelas.kode_kelas=tbl_rombelkelas.kode_kelas JOIN tbl_jurusan ON tbl_jurusan.kode_jurusan=tbl_detailrombel.kode_jurusan WHERE tbl_rombelkelas.kode_rombel = '$rombel' AND tbl_detailrombel.kode_jurusan = '$jurusan'");
         $response = array();
 
         // Mengecek Total Data pada Rombel Kelas
-        $count_rombel = mysqli_query($_AUTH, "SELECT COUNT(*) 'total_datasiswa' FROM tbl_detailrombel JOIN tbl_rombelkelas ON tbl_rombelkelas.kode_rombel=tbl_detailrombel.kode_rombel JOIN tbl_datasiswa ON tbl_datasiswa.id_siswa=tbl_detailrombel.id_siswa JOIN tbl_angkatan ON tbl_angkatan.kode_angkatan=tbl_rombelkelas.kode_angkatan JOIN tbl_tahunajaran ON tbl_tahunajaran.kode_tahunajaran=tbl_rombelkelas.kode_tahunajaran JOIN tbl_guru ON tbl_guru.id_guru=tbl_rombelkelas.id_guru JOIN tbl_jenjang ON tbl_jenjang.kode_jenjang=tbl_rombelkelas.kode_jenjang JOIN tbl_kelas ON tbl_kelas.kode_kelas=tbl_rombelkelas.kode_kelas  WHERE tbl_rombelkelas.kode_rombel = '$rombel'");
+        $count_rombel = mysqli_query($_AUTH, "SELECT COUNT(*) 'total_datasiswa' FROM tbl_detailrombel JOIN tbl_rombelkelas ON tbl_rombelkelas.kode_rombel=tbl_detailrombel.kode_rombel JOIN tbl_datasiswa ON tbl_datasiswa.id_siswa=tbl_detailrombel.id_siswa JOIN tbl_angkatan ON tbl_angkatan.kode_angkatan=tbl_rombelkelas.kode_angkatan JOIN tbl_tahunajaran ON tbl_tahunajaran.kode_tahunajaran=tbl_rombelkelas.kode_tahunajaran JOIN tbl_guru ON tbl_guru.id_guru=tbl_rombelkelas.id_guru JOIN tbl_jenjang ON tbl_jenjang.kode_jenjang=tbl_rombelkelas.kode_jenjang JOIN tbl_kelas ON tbl_kelas.kode_kelas=tbl_rombelkelas.kode_kelas JOIN tbl_jurusan ON tbl_jurusan.kode_jurusan=tbl_detailrombel.kode_jurusan WHERE tbl_rombelkelas.kode_rombel = '$rombel' AND tbl_detailrombel.kode_jurusan = '$jurusan'");
         $total_datasiswa = mysqli_fetch_assoc($count_rombel);
 
         if($total_datasiswa['total_datasiswa'] == 0) {
@@ -29,7 +30,7 @@
         } else {
 
             // Data tersedia di database dan akan ditampilkan ke dalam list
-            $response["message"] = trim("Data tidak ditemukan didatabase / " . $total_datasiswa['total_datasiswa'] . " data");
+            $response["message"] = trim("Data ditemukan didatabase / " . $total_datasiswa['total_datasiswa'] . " data");
             $response["code"] = 200; // Data ditemukan
             $response["status"] = true;
             $response["total_siswa"] = $total_datasiswa['total_datasiswa'];
