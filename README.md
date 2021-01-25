@@ -266,6 +266,8 @@ Seperti tampak pada gambar dibawah ini
 
 Untuk sourcecode berikut kami sematkan di bagian link berikut <a href="https://github.com/eljitech/attendance/commit/bc7139a71bd99e1e93f5bc63adfd693e1c2481b9">Lihat disini</a>
 
+* Menampilkan data siswa dengan dan tanpa berdasarkan jurusan
+
 Final change, menampilkan data dengan dan tanpa parameter jurusan, disini kita menerapkan statement `if else`, request list data rombel kelas memiliki 2 parameter, parameter utama ada pada `kode_rombel`, sedangkan kode_jurusan merupakan secondary key, maka jika 2 parameter itu terisi sesuai kriteria maka akan memunculkan data berdasarkan angakatan dan jurusan tertentu, jika key jurusan kita kosongkan maka data yang ditampilkan yakni keseluruhan siswa baik dari jurusan RPL maupun TKJ akan dimuncul kan tampak seperti pada gambar berikut
 
 <img src="https://github.com/eljitech/attendance/blob/master/picture/github/Peek%202021-01-25%2011-19.gif"/>
