@@ -280,6 +280,19 @@ Bisa lihat <a href="https://github.com/eljitech/attendance/commit/1c4dbb6585caab
 
 <img src="https://github.com/eljitech/attendance/blob/master/picture/github/Peek%202021-01-26%2020-35.gif"/>
 
+### 27 Jan 2021 : Menambahkan Module API Menambahkan Rombel Kelas kedalam database
+* Buat Folder `rombelkelas` didalam folder `master`
+* Hapus lebih dahulu data pada (datasiswa, angkatan, absensi, detailabsensi, detailrombel, guru, mapel MTK dan BI hapus jadi tinggal sisa RPL 01 - 05, rombelkelas)
+* Buat file `create_rombelkelas.php`
+
+Pastikan request bisa melakukan eksekusi seperti dibawah ini
+
+<img src="https://github.com/eljitech/attendance/blob/master/picture/github/Peek%202021-01-27%2022-51.gif"/>
+
+Dan masuk kedalam database, untuk sourcecode bisa lihat <a href="https://github.com/eljitech/attendance/blob/master/module/master/rombelkelas/create_rombelkelas.php">disini</a>
+
+Diselesaikan sampai besok saya kasih waktu sampai pukul 15.00 WIB. Result kirim ke email beserta tulisannya.
+
 ### Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 
