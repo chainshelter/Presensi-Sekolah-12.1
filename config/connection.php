@@ -9,7 +9,7 @@
     $_AUTH = mysqli_connect($SERVER, $USERDB, $KEYDB, $DBNAME);
 
     if($_AUTH) {
-        // echo "Koneksi bershasil dilakukan";
+        // echo "Koneksi berhasil dilakukan";
     } else {
         // echo "Koneksi gagal dilakukan";
     }
