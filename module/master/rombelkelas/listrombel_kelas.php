@@ -1,8 +1,8 @@
 <?php
 
-    include '../../config/connection.php';
+    include '../../../config/connection.php';
 
-    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if($_SERVER['REQUEST_METHOD'] == 'POST') { // Request ke server dengan method POST
         // Request terpenuhi
         $kodeta = $_POST['kode_tahunajaran'];
 
