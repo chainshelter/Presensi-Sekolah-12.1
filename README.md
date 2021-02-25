@@ -22,7 +22,5 @@ Dibawah ini merupakan history dari pembahasan module dari project aplikasi Atten
 
 ## Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
-
 * <a href="https://github.com/eljitech/campusystem/releases/tag/180121.2">Rekonstruksi Database Presensi</a> : Update Database Struktur dan Data. (<i>Unstable</i>)
-
 * <a href="https://github.com/eljitech/campusystem/releases/tag/190121.2">Hasil Normalisasi Final Database</a> : Update Database Struktur dan Data. (<b>Stable Now, Download for Import to Your Local Database Server</b>)
