@@ -15,10 +15,10 @@ Dibawah ini merupakan history dari pembahasan module dari project aplikasi Atten
 * 27 Jan 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-12-Jan-s-d-2-Februari-2021-PH1#27-jan-2021--menambahkan-module-api-menambahkan-rombel-kelas-kedalam-database">Menambahkan Module API Menambahkan Rombel Kelas kedalam database</a>
 
 ## Pembahasan Module : 22 Feb s d PTS
-* 22 Feb 2021 : <a href="">Libur karna banjir</a>
-* 23 Feb 2021 : <a href="">Prepare persiapan project Apps Android untuk Presensi Siswa</a>
-* 24 Feb 2021 : <a href="">Flowmap aplikasi presensi di muat dari API yang sudah selesai (Menampilkan List Kelas)</a>
-* 25 Feb 2021 : <a href="">Membuat UI Design Welcome, Login, Register & Dashboard</a>
+* 22 Feb 2021 : <a href="#">Libur karna banjir</a>
+* 23 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#23-februari-2021--prepare-persiapan-project-apps-android-untuk-presensi-siswa">Prepare persiapan project Apps Android untuk Presensi Siswa</a>
+* 24 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#24-februari-2021--flowmap-aplikasi-presensi-di-muat-dari-api-yang-sudah-selesai-menampilkan-list-kelas">Flowmap aplikasi presensi di muat dari API yang sudah selesai (Menampilkan List Kelas)</a>
+* 25 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#25-februari-2021--membuat-ui-design-welcome-login-register--dashboard">Membuat UI Design Welcome, Login, Register & Dashboard</a>
 
 ## Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
