@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF2936"
+    tools:context=".WelcomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11pt"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="attendance."/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Hi, Educator in App"/>
+
+        <TextView
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Selamat datang di aplikasi absensi siswa Have fun and Enjoy it"/>
+
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:gravity="right"
+                android:textColor="#fff"
+                android:layout_weight="1.6"
+                android:text="If you have an account,"/>
+
+            <TextView
+                android:layout_weight="2.7"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:gravity="left"
+                android:textColor="#fff"
+                android:text=" Login Now!"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/background_bt"
+            android:gravity="center"
+            android:textColor="#F81F1F"
+            android:text="Register Here"
+            android:textAllCaps="false"
+            android:textSize="15pt"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
