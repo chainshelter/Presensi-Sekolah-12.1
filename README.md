@@ -20,6 +20,8 @@ Dibawah ini merupakan history dari pembahasan module dari project aplikasi Atten
 * 24 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#24-februari-2021--flowmap-aplikasi-presensi-di-muat-dari-api-yang-sudah-selesai-menampilkan-list-kelas">Flowmap aplikasi presensi di muat dari API yang sudah selesai (Menampilkan List Kelas)</a>
 * 25 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#25-februari-2021--membuat-ui-design-welcome-login-register--dashboard">Membuat UI Design Welcome, Login, Register & Dashboard</a>
 * 26 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#26-februari-2021--integrasi-ui-welcome-activity-kedalam-project-android">Integrasi UI Welcome Activity kedalam Project Android</a>
+* 01 Mar 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#01-maret-2021--integrasi-ui-login-activity-kedalam-project-android">Integrasi UI Login Activity kedalam Project Android dan Implementasi Intent</a>
+
 
 ## Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
