@@ -1,8 +1,10 @@
-package ei.eseptiyadi.presensi.views;
+package ei.eseptiyadi.presensi.auth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import ei.eseptiyadi.presensi.R;
 
 public class LoginActivity extends AppCompatActivity {
 
