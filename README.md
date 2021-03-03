@@ -21,6 +21,7 @@ Dibawah ini merupakan history dari pembahasan module dari project aplikasi Atten
 * 25 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#25-februari-2021--membuat-ui-design-welcome-login-register--dashboard">Membuat UI Design Welcome, Login, Register & Dashboard</a>
 * 26 Feb 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#26-februari-2021--integrasi-ui-welcome-activity-kedalam-project-android">Integrasi UI Welcome Activity kedalam Project Android</a>
 * 01 Mar 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#01-maret-2021--integrasi-ui-login-activity-kedalam-project-android">Integrasi UI Login Activity kedalam Project Android dan Implementasi Intent</a>
+* 03 Mar 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#03-maret-2021--slicing-ui-register-ke-android-layout--implementasi-api-register">Slicing UI Register ke Android Layout & Implementasi API Register</a>
 
 
 ## Rilis Update : Bisa di download di link berikut
