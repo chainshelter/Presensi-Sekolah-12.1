@@ -8,6 +8,7 @@ import android.view.View;
 
 import ei.eseptiyadi.presensi.R;
 import ei.eseptiyadi.presensi.auth.LoginActivity;
+import ei.eseptiyadi.presensi.auth.RegisterActivity;
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -19,5 +20,9 @@ public class WelcomeActivity extends AppCompatActivity {
 
     public void goToLogin(View view) {
         startActivity(new Intent(WelcomeActivity.this, LoginActivity.class));
+    }
+
+    public void registerNow(View view) {
+        startActivity(new Intent(WelcomeActivity.this, RegisterActivity.class));
     }
 }

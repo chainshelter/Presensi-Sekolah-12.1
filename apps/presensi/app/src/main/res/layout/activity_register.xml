@@ -1,9 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".auth.RegisterActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/register_ui"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="11pt"
+                android:gravity="left"
+                android:textColor="#F81F1F"
+                android:text="attendance."/>
+
+            <TextView
+                android:layout_marginTop="60dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28pt"
+                android:gravity="left"
+                android:textColor="#F81F1F"
+                android:text="Join in \nEducator"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/top"
+            android:id="@+id/bellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtRegUsername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Username"
+                android:drawablePadding="10dp"
+                android:background="@drawable/bordered_et"
+                android:textColor="#F81F1F"
+                android:drawableLeft="@drawable/ic_username"
+                android:paddingLeft="10dp"
+                android:textSize="7pt"/>
+
+            <EditText
+                android:id="@+id/edtRegPass"
+                android:paddingRight="10dp"
+                android:drawableRight="@drawable/ic_invisible"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:background="@drawable/bordered_et"
+                android:textColor="#F81F1F"
+                android:drawableLeft="@drawable/ic_key"
+                android:paddingLeft="10dp"
+                android:textSize="7pt"/>
+
+            <EditText
+                android:id="@+id/edtRegConfirmpass"
+                android:paddingRight="10dp"
+                android:drawableRight="@drawable/ic_invisible"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:background="@drawable/bordered_et"
+                android:textColor="#F81F1F"
+                android:drawableLeft="@drawable/ic_key"
+                android:paddingLeft="10dp"
+                android:textSize="7pt"/>
+
+            <EditText
+                android:id="@+id/edtRegNIP"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Nomor Induk Pendidik"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:background="@drawable/bordered_et"
+                android:textColor="#F81F1F"
+                android:drawableLeft="@drawable/ic_id"
+                android:paddingLeft="10dp"
+                android:textSize="7pt"/>
+
+            <EditText
+                android:id="@+id/edtRegGender"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Jenis Kelamin"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:background="@drawable/bordered_et"
+                android:textColor="#F81F1F"
+                android:drawableLeft="@drawable/ic_gender"
+                android:paddingLeft="10dp"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:onClick="actionRegister"
+                android:background="@drawable/background_bt"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textAllCaps="false"
+                android:textSize="13pt"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Register Account"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#F81F1F"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I have an account now,"/>
+
+                <TextView
+                    android:onClick="loginNow"
+                    android:textColor="#F81F1F"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:layout_weight="1.6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Login Now!"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
