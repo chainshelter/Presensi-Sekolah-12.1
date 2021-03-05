@@ -23,13 +23,6 @@ Dibawah ini merupakan history dari pembahasan module dari project aplikasi Atten
 * 01 Mar 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#01-maret-2021--integrasi-ui-login-activity-kedalam-project-android">Integrasi UI Login Activity kedalam Project Android dan Implementasi Intent</a>
 * 03 Mar 2021 : <a href="https://github.com/eljitech/attendance/wiki/Pembahasan-Module-:-22-Februari-2021-s-d-PTS#03-maret-2021--slicing-ui-register-ke-android-layout--implementasi-api-register">Slicing UI Register ke Android Layout & Implementasi API Register</a>
 
-## Semua Vidio Pertemuan setiap Sesinya
-
-### A. Kelas XII Software Engineer 2021
-* <a href="https://drive.google.com/drive/folders/1OlHie3R7nve2S21jGxAzP_k2me3VTXLh?usp=sharing">Record Semua Pertemuan</a> Bulan Januari 2021
-* <a href="https://drive.google.com/drive/folders/1WwaVpwNj8EW_PNw_ofWA2t9RWZWzVmVU?usp=sharing">Record Semua Pertemuan</a> Bulan Februari 2021
-* <a href="https://drive.google.com/drive/folders/1lJKBiyUQLTQ3pK5y_UY4IkBJFRQy-I-b?usp=sharing">Record Semua Pertemuan</a> Bulan Maret 2021
-
 ## Rilis Update : Bisa di download di link berikut
 * <a href="https://github.com/eljitech/campusystem/releases/tag/150121.2">Pertemuan Terakhir 15 Januari 2021</a> : Update Struktur table Database db_presensi persiapan Membangun Native API. (<i>Unstable</i>)
 * <a href="https://github.com/eljitech/campusystem/releases/tag/180121.2">Rekonstruksi Database Presensi</a> : Update Database Struktur dan Data. (<i>Unstable</i>)
